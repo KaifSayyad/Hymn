@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "frontend",
+    "slug": "frontend",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/logo.png",
+    "userInterfaceStyle": "light",
+    "extra": {
+      "API_URL": "http://192.168.40.167:3000/api",
+      "firebaseApiKey": "AIzaSyDw0aAh8J7s2QOwvDxmUCcD7RhTs9NCGE8",
+      "firebaseAuthDomain": "songs-app-49764.firebaseapp.com",
+      "firebaseProjectId": "songs-app-49764",
+      "firebaseStorageBucket": "songs-app-49764.firebasestorage.app",
+      "firebaseMessagingSenderId": "710898609049",
+      "firebaseAppId": "1:710898609049:web:87838f5895410af3020108"
+    },
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/logo.png"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "plugins": [
+      "expo-font"
+    ],
+  }
+}
